@@ -25,7 +25,7 @@
                 "sagemaker:DeleteEndpoint"
             ],
             "Resource": [
-                "arn:aws:sagemaker:*:*:*"
+                "arn:aws-cn:sagemaker:*:*:*"
             ]
         },
         {
@@ -36,7 +36,7 @@
                 "events:PutTargets"
             ],
             "Resource": [
-                "arn:aws:events:*:*:rule/StepFunctionsGetEventsForSageMakerTrainingJobsRule"
+                "arn:aws-cn:events:*:*:rule/StepFunctionsGetEventsForSageMakerTrainingJobsRule"
             ]
         },
         {
@@ -45,7 +45,7 @@
                 "lambda:InvokeFunction"
             ],
             "Resource": [
-                "arn:aws:lambda:*:*:function:query-training-status*"
+                "arn:aws-cn:lambda:*:*:function:query-training-status*"
             ]
         },
         {
@@ -56,7 +56,7 @@
                 "glue:BatchStopJobRun",
                 "glue:GetJobRuns"
             ],
-            "Resource": "arn:aws:glue:*:*:job/glue-customer-churn-etl*"
+            "Resource": "arn:aws-cn:glue:*:*:job/glue-customer-churn-etl*"
         }
     ]
 }
